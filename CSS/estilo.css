@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Moonllys;
+    src: url(../TEXTWEB/moonllys/Moonllys.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* box-sizing: content-box;*/
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    background-image: url(../IMG/fondos/fondo5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: #333;
+    align-items: center;
+    box-shadow: 0 0 9px 0 rgb(90, 84, 84);
+}
+
+.logo {
+    position: relative;
+    top: 0;
+    left: 1%;
+    float: left;
+    height: 100%;
+    width: 15%;
+    padding: auto;
+}
+
+li,
+a {
+    font-family: Moonllys;
+    text-transform: uppercase;
+    color: black;
+    font-size: 2rem;
+}
+
+.menu {
+    float: right;
+    height: 100%;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.3rem;
+    line-height: 8vh;
+    padding: 0 2px;
+}
+
+.menu a:hover {
+    background-color: black;
+    color: white;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.contenedor {
+    position: absolute;
+    top: 600px;
+    padding: 60px 0;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    max-width: 1000px;
+    margin: auto;
+    height: 100%;
+    font-size: 3rem;
+    font-family: Moonllys;
+    color: white;
+}
+
+footer {
+    box-shadow: 0 0 9px 0 rgb(90, 84, 84);
+    position: absolute;
+    top: 100%;
+    height: 220px;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+}
+
+.icon {
+    position: relative;
+    top: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 10%;
+}
+
+footer h3 {
+    position: relative;
+    top: 1rem;
+    font-family: Moonllys;
+    font-size: 1rem;
+}
+
+footer hr {
+    position: relative;
+    top: 1rem;
+    width: 40%;
+    left: 30%;
+    border: 2px black solid;
+}
+
+.social li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social li a {
+    position: relative;
+    top: 2rem;
+    display: block;
+    text-decoration: none;
+    padding: 0 2px;
+    width: 2rem;
+    height: 2rem;
+}
+
+.content-foo {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.titulo-final {
+    margin-top: 35px;
+}

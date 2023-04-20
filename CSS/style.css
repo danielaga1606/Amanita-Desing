@@ -1,0 +1,216 @@
+    @font-face {
+        font-family: border;
+        src: url(../TEXTWEB/border/Border.ttf);
+    }
+    
+    @font-face {
+        font-family: creaky_frank;
+        src: url(../TEXTWEB/creaky_frank/CreakyFrank.ttf);
+    }
+    
+    @font-face {
+        font-family: fun_games;
+        src: url(../TEXTWEB/fun_games/Fun\ Games.ttf);
+    }
+    
+    @font-face {
+        font-family: Drop-the-Game;
+        src: url(../TEXTWEB/drop_the_game/Drop\ the\ Game\ -\ TTF.ttf);
+    }
+    
+    @font-face {
+        font-family: Game-On;
+        src: url(../TEXTWEB/game_on/Game\ On_PersonalUseOnly.ttf);
+    }
+    
+    @font-face {
+        font-family: Moonllys;
+        src: url(../TEXTWEB/moonllys/Moonllys.ttf);
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* box-sizing: content-box;*/
+    }
+    
+    body {
+        background-color: black;
+        text-align: center;
+    }
+    
+    header {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 8vh;
+        background-color: #333;
+        align-items: center;
+    }
+    
+    .logo {
+        position: relative;
+        top: 0;
+        left: 1%;
+        float: left;
+        height: 100%;
+        width: 15%;
+        padding: auto;
+    }
+    
+    li,
+    a {
+        font-family: Moonllys;
+        text-transform: uppercase;
+        color: black;
+        font-size: 2rem;
+    }
+    
+    .menu {
+        float: right;
+        height: 100%;
+    }
+    
+    .menu li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+    
+    .menu li a {
+        display: block;
+        text-decoration: none;
+        font-size: 1.3rem;
+        line-height: 8vh;
+        padding: 0 2px;
+    }
+    
+    .menu a:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    .cuerpo {
+        padding-top: 8vh;
+        width: 100%;
+        height: 80%;
+        color: white;
+        font-size: 3rem;
+        font-family: Moonllys;
+    }
+    
+    .fondo {
+        width: 100%;
+        height: 100%;
+    }
+    
+    footer {
+        position: relative;
+        bottom: 0;
+        height: 150px;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+        align-items: center;
+        color: white;
+        font-size: 1rem;
+    }
+    
+    .icon {
+        padding-top: 0.5rem;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 10%;
+    }
+    
+    footer h3 {
+        padding-top: 1rem;
+        font-family: Moonllys;
+        font-size: 1rem;
+        font-style: under;
+    }
+    
+    .social li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+    
+    .social li a {
+        padding-top: 2rem;
+        display: block;
+        text-decoration: none;
+        padding: 0 2px;
+        width: 2rem;
+        height: 2rem;
+    }
+    /*este es la configuracion del div cuerpo para las demás páginas*/
+    
+    .cuerpos {
+        position: absolute;
+        top: 8vh;
+        left: 0;
+        width: 100%;
+        height: 80%;
+        align-items: center;
+    }
+    /*estilo  de página de construccion*/
+    
+    .wellcome {
+        position: relative;
+        top: 3%;
+        width: 30%;
+        height: 20%;
+    }
+    
+    .mensage {
+        position: relative;
+        top: 3%;
+        left: 10%;
+        width: 80%;
+        height: 40%;
+        background-color: white;
+        border: #333 solid 2px;
+        border-radius: 2%;
+    }
+    
+    .mensage h1 {
+        width: 100%;
+        height: 40%;
+        font-family: border;
+        padding-top: 1%;
+        color: black;
+        font-size: 2rem;
+    }
+    
+    .mensage img {
+        width: 10%;
+        height: 100%;
+    }
+    
+    .mensage .run {
+        padding: top 20%;
+        padding-bottom: 0;
+        width: 100%;
+        height: 70%;
+    }
+    
+    .loading {
+        position: relative;
+        top: 7%;
+        left: 45%;
+        width: 10%;
+        height: 20%;
+    }
+    
+    .loading img {
+        width: 60%;
+        height: 80%;
+    }
+    
+    .loading h2 {
+        color: white;
+        font-size: 1rem;
+    }
+    /*estilo de la pagina area al cliente*/
+    
+    @media screen {}
